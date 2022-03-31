@@ -64,8 +64,48 @@ input::placeholder{
          margin-left: 80px;
        }
 
-      
     #button:hover {
         color: white;
         background-color: black;
       }
+
+
+@media only screen and (min-width: 200px) and (max-width: 767px)  {
+        /*Put your CSS here for 200px to 767px width devices to cover all width between 200px to 767px*/
+
+        .box{
+            padding: 15px;
+            padding-top : 15px;
+        }
+
+        .box h2{
+            margin-bottom: 25px;
+            font-size: 13px;
+          }
+
+        input{
+            padding: 10;
+            user-select: none;
+            height: 25px;
+            width: 200px;
+            font-size: 11px;
+        }
+
+        input::placeholder{
+            font-size: 14px;
+            } 
+
+        .btn-2{
+            margin-left: 40px;
+          }
+
+          #button {
+            font-size: 7.5px;
+            margin-top: 20px;
+            border: 2px solid #7100cf;
+            width: 77px;
+            height: 25px;
+            border-radius: 5px;  
+          }
+
+    }
